@@ -23,7 +23,10 @@ In this lab, you'll build an interface to display NYC Open Data.
 
 1. Use the [NYC Open Data Portal](https://opendata.cityofnewyork.us/) to locate the "2018 Central Park Squirrel Census - Squirrel Data" dataset.
 2. Consult the API Documentation, and open the API endpoint (the URL ending in `.json`) in a new tab.
-3. Create a new Socrata App Token and append it to the end of the URL.
+3. Create a new Socrata App Token and append it to the end of the URL. When you've finished, it will looke something like this: 
+```
+https://data.cityofnewyork.us/resource/vfnx-vebw.json?$$app_token=TNxXJT9OVmO6FDIhzqXYaEKJ
+```
 > Refer back to the ["Getting an App Token" section of the NYC Open Data lesson](https://github.com/upperlinecode/CS-and-the-City-Curriculum/blob/master/react/react-nyc-open-data.md#getting-an-app-token) if you need help with this.
 4. Filter the data to only those squirrels who were viewed while running: `running=true`.
 > Refer back to the ["Filtering Data from Socrata" section of the NYC Open Data lesson](https://github.com/upperlinecode/CS-and-the-City-Curriculum/blob/master/react/react-nyc-open-data.md#filtering-data-from-socrata) if you need help with this.
