@@ -41,10 +41,11 @@ https://data.cityofnewyork.us/resource/vfnx-vebw.json?$$app_token=Ttmoxz1FeJQ6t4
 1. Update the functional component `App` in `App.js` to include a `componentDidMount` lifecycle method.
 2. Use `fetch()` to get the data from Part One, Step 4. `console.log()` the result.
 > Hint: you may need to use an initial `.then()` step to convert the response to JSON.
-3. Store the result of the API call in a state variable called `squirrels`.
-4. Use `.map()` to render a list of all observed squirrels showing the `unique_squirrel_id` of each.
+3. Add `this.state` to your constructor with a property `squirrels` set to an empty array.
+4. Store the result of the API call in the state property called `squirrels`.
+5. Use `.map()` to render a list of all observed squirrels showing the `unique_squirrel_id` of each.
 > Tip: When you `npm run`, your list should have about 700 entries in it. What happens if you remove `running=true` from your API request?
-5. Create a new component called `<Squirrel />` and pass its data to it as a prop.
+6. Create a new component called `<Squirrel />` and pass its data to it as a prop.
 > Note: there's a `.Squirrel` CSS class which may be helpful.
 
 ### Part Three: 🌰+🐿 in React
